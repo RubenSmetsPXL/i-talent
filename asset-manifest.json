@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/i-talent/static/css/main.f3cabbfa.css",
+    "main.js": "/i-talent/static/js/main.38ae13de.js",
+    "index.html": "/i-talent/index.html",
+    "main.f3cabbfa.css.map": "/i-talent/static/css/main.f3cabbfa.css.map",
+    "main.38ae13de.js.map": "/i-talent/static/js/main.38ae13de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3cabbfa.css",
+    "static/js/main.38ae13de.js"
+  ]
+}
