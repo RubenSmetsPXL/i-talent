@@ -1,0 +1,36 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .photo {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  body {
+    background-color: #0a1414;   
+  }
+
+  h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #adf386;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #adf386;
+    line-height: 0.5;
+    text-align: justify;
+  }
+
+  .text {
+    text-align: left;
+  }
