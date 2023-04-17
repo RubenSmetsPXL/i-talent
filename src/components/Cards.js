@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 import hackathon from './images/hackathon.png'
@@ -15,6 +15,8 @@ import brein from './images/brein.jpg'
 import popping from './images/popping.jpg'
 
 function Cards() {
+  const [expandedIndex, setExpandedIndex] = useState(-1);
+
   return (
     <div className='cards'>
       <h1>Innovatie</h1>
@@ -31,6 +33,9 @@ function Cards() {
               \n•	Datum: 29 november 2022
               \n•	Duur: 25 uur
               `}
+              index={0}
+              expanded={expandedIndex === 0}
+              onCardItemClick={(index) => setExpandedIndex(index)}
             />
             <CardItem
               src={innovatieroute}
@@ -42,6 +47,10 @@ function Cards() {
               \n•	Datum: 26 september 2022 tot en met 13 februari 2022
               \n•	Duur: 25 uur
               `}
+
+              index={1}
+              expanded={expandedIndex === 1}
+              onCardItemClick={(index) => setExpandedIndex(index)}
             />
           </ul>
         </div>
@@ -61,6 +70,9 @@ function Cards() {
               \n•	Datum: 22 maart 2022
               \n•	Duur: 3 uur
               `}
+              index={2}
+              expanded={expandedIndex === 2}
+              onCardItemClick={(index) => setExpandedIndex(index)}
             />
             <CardItem
               src={cegeka}
@@ -72,6 +84,9 @@ function Cards() {
               \n•	Datum: 29 maart 2022
               \n•	Duur: 3 uur
               `}
+              index={3}
+              expanded={expandedIndex === 3}
+              onCardItemClick={(index) => setExpandedIndex(index)}
             />
             <CardItem
               src={nviso}
@@ -83,6 +98,9 @@ function Cards() {
               \n•	Datum: 26 april 2022
               \n•	Duur: 3 uur
               `}
+              index={4}
+              expanded={expandedIndex === 4}
+              onCardItemClick={(index) => setExpandedIndex(index)}
             />
             <CardItem
               src={politie}
@@ -94,6 +112,9 @@ function Cards() {
               \n•	Datum: 10 mei 2022
               \n•	Duur: 3 uur
               `}
+              index={5}
+              expanded={expandedIndex === 5}
+              onCardItemClick={(index) => setExpandedIndex(index)}
             />
             <CardItem
               src={dataroots}
@@ -105,6 +126,9 @@ function Cards() {
               \n•	Datum: 26 oktober 2022
               \n•	Duur: 3 uur
               `}
+              index={6}
+              expanded={expandedIndex === 6}
+              onCardItemClick={(index) => setExpandedIndex(index)}
             />
             <CardItem
               src={io}
@@ -116,6 +140,9 @@ function Cards() {
               \n•	Datum: 9 november 2022
               \n•	Duur: 3 uur
               `}
+              index={7}
+              expanded={expandedIndex === 7}
+              onCardItemClick={(index) => setExpandedIndex(index)}
             />
             <CardItem
               src={itlicious}
@@ -126,6 +153,9 @@ function Cards() {
               \n•	Datum: 7 december 2022
               \n•	Duur: 3 uur
               `}
+              index={8}
+              expanded={expandedIndex === 8}
+              onCardItemClick={(index) => setExpandedIndex(index)}
             />
             <CardItem
               src={brainjar}
@@ -136,6 +166,9 @@ function Cards() {
               \n•	Datum: 11 januari 2023
               \n•	Duur: 3 uur
               `}
+              index={9}
+              expanded={expandedIndex === 9}
+              onCardItemClick={(index) => setExpandedIndex(index)}
             />
           </ul>
         </div>
@@ -154,6 +187,9 @@ function Cards() {
               \n •	Locatie activiteit: PXL
               \n •	Datum: 14 februari 2022 tot en met 18 februari 2022 
               \n •	Duur: 27 uur`}
+              index={10}
+              expanded={expandedIndex === 10}
+              onCardItemClick={(index) => setExpandedIndex(index)}
             />
             <CardItem
               src={brein}
@@ -164,6 +200,9 @@ function Cards() {
               \n •	Datum: 22 februari 2022
               \n •	Duur: 3 uur
               `}
+              index={11}
+              expanded={expandedIndex === 11}
+              onCardItemClick={(index) => setExpandedIndex(index)}
             />
             <CardItem
               src={popping}
@@ -175,6 +214,9 @@ function Cards() {
               \n •	Datum: 22 februari 2022
               \n •	Duur: 3 uur
               `}
+              index={12}
+              expanded={expandedIndex === 12}
+              onCardItemClick={(index) => setExpandedIndex(index)}
             />
             <CardItem
               src={pxl}
@@ -185,6 +227,9 @@ function Cards() {
               \n•	Datum: 19 oktober 2022
               \n•	Duur: 3 uur
               `}
+              index={13}
+              expanded={expandedIndex === 13}
+              onCardItemClick={(index) => setExpandedIndex(index)}
             />
           </ul>
         </div>
