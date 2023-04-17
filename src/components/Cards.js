@@ -2,7 +2,17 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 import hackathon from './images/hackathon.png'
-import ik from './images/ik.jpg'
+import brainjar from './images/logo_brainjar.png'
+import cegeka from './images/logo_cegeka.png'
+import dataroots from './images/logo_dataroots.jpg'
+import io from './images/logo_io.png'
+import itlicious from './images/logo_itlicious.png'
+import nviso from './images/logo_nviso.png'
+import politie from './images/logo_politie.jpg'
+import innovatieroute from './images/innovatieroute.jpg'
+import pxl from './images/logo_pxl.png'
+import brein from './images/brein.jpg'
+import popping from './images/popping.jpg'
 
 function Cards() {
   return (
@@ -14,20 +24,24 @@ function Cards() {
             <CardItem
               src={hackathon}
               text='Hackaton fruit at work'
-              details='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A condimentum vitae sapien pellentesque habitant morbi tristique. Sed vulputate mi sit amet mauris. Scelerisque fermentum dui faucibus in ornare. Volutpat sed cras ornare arcu dui. Auctor augue mauris augue neque gravida in fermentum et. Id consectetur purus ut faucibus pulvinar elementum integer enim neque. Aliquet lectus proin nibh nisl. Sit amet purus gravida quis blandit turpis. Massa eget egestas purus viverra accumsan. Lacinia at quis risus sed vulputate odio. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec.
-
-              Tincidunt vitae semper quis lectus nulla at volutpat. Accumsan sit amet nulla facilisi morbi tempus iaculis. Turpis egestas sed tempus urna et pharetra pharetra massa massa. Ullamcorper malesuada proin libero nunc consequat. Consequat interdum varius sit amet mattis vulputate enim. Ut placerat orci nulla pellentesque dignissim enim sit amet venenatis. Quis enim lobortis scelerisque fermentum dui faucibus in ornare. Amet nulla facilisi morbi tempus iaculis urna id. Ultricies tristique nulla aliquet enim tortor at. Tortor aliquam nulla facilisi cras fermentum odio eu. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Vitae auctor eu augue ut lectus arcu bibendum. Nam libero justo laoreet sit. Dignissim enim sit amet venenatis urna cursus. Sed id semper risus in hendrerit gravida rutrum. Curabitur vitae nunc sed velit.
-              
-              Vel orci porta non pulvinar neque laoreet. Magna fermentum iaculis eu non diam phasellus. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Ut eu sem integer vitae justo eget magna fermentum. Nibh praesent tristique magna sit amet purus gravida quis. Faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Scelerisque eu ultrices vitae auctor eu. Amet venenatis urna cursus eget nunc scelerisque viverra mauris. Quam viverra orci sagittis eu volutpat. Cursus sit amet dictum sit amet.
-              
-              Adipiscing tristique risus nec feugiat in fermentum posuere urna. Orci porta non pulvinar neque laoreet. Accumsan sit amet nulla facilisi morbi tempus iaculis urna. Tincidunt ornare massa eget egestas purus. Dolor sed viverra ipsum nunc aliquet bibendum enim. In mollis nunc sed id semper risus in hendrerit gravida. Sodales neque sodales ut etiam sit amet nisl. Pellentesque habitant morbi tristique senectus et netus et. Orci sagittis eu volutpat odio facilisis mauris sit. Ullamcorper sit amet risus nullam. Egestas erat imperdiet sed euismod.
-              
-              Orci sagittis eu volutpat odio facilisis mauris. Id eu nisl nunc mi ipsum faucibus. Vivamus arcu felis bibendum ut tristique et egestas quis ipsum. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Non enim praesent elementum facilisis leo vel fringilla est ullamcorper. Sed id semper risus in hendrerit gravida rutrum quisque non. Vitae congue eu consequat ac felis donec. Iaculis at erat pellentesque adipiscing. Semper eget duis at tellus at. Facilisis mauris sit amet massa vitae. Molestie at elementum eu facilisis sed odio morbi quis commodo. Ac placerat vestibulum lectus mauris. Interdum varius sit amet mattis vulputate enim. Sodales neque sodales ut etiam sit amet nisl purus. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Neque ornare aenean euismod elementum nisi. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Ullamcorper velit sed ullamcorper morbi tincidunt. Ullamcorper velit sed ullamcorper morbi.'
+              details={`Tijdens de hackathon AI by Example moesten we automatisch fruit in een fruitmand herkennen en tellen door middel van een foto om voedselverspilling tegen te gaan.
+              \n•	Innovatie
+              \n•	Bedrijven: AI by Example, Fruit at Work
+              \n•	Locatie activiteit: PXL
+              \n•	Datum: 29 november 2022
+              \n•	Duur: 25 uur
+              `}
             />
             <CardItem
-              src={ik}
-              text='Seminarie...'
-              path='/'
+              src={innovatieroute}
+              text='Innovatieroute Low Code'
+              details={`Tijdens de innovatieroute kwamen verschillende bedrijven spreken over hoe zij low-code/no-code gebruiken in hun bedrijf. Hierbij kregen we ook oefeningen met diverse low-code platformen. 
+              \n•	Innovatie
+              \n•	Bedrijven: Aziri, Brightfox, OutSystems, Harmony Group, Apvine en iAdvise
+              \n•	Locatie activiteit: bedrijf, plaats
+              \n•	Datum: 26 september 2022 tot en met 13 februari 2022
+              \n•	Duur: 25 uur
+              `}
             />
           </ul>
         </div>
@@ -38,62 +52,139 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src={hackathon}
-              text='Hackaton fruit at work'
-              path='/Innovatie'
+              src={cegeka}
+              text='Cegeka: Business Analysis en Project Management in Applied AI'
+              details={`Tijdens het seminarie leren we over het implementeren van AI-oplossingen in bedrijven en overheden. We leren hoe we agile technieken kunnen toepassen om een idee vorm te geven.
+              \n•	Seminarie
+              \n•	Bedrijf: Cegeka
+              \n•	Locatie activiteit: PXL
+              \n•	Datum: 22 maart 2022
+              \n•	Duur: 3 uur
+              `}
             />
             <CardItem
-              src={ik}
-              text='Seminarie...'
-              path='/'
+              src={cegeka}
+              text='Cegeka: Low Code'
+              details={`Tijdens het seminarie Low Code van Cegeka werd toegelicht wat low-code is. Daarnaast kregen we ook een oefening om bekend te geraken met het low-code platform OutSystems.
+              \n•	Seminarie
+              \n•	Bedrijf: Cegeka
+              \n•	Locatie activiteit: PXL
+              \n•	Datum: 29 maart 2022
+              \n•	Duur: 3 uur
+              `}
             />
             <CardItem
-              src={ik}
-              text='Seminarie...'
-              path='/'
+              src={nviso}
+              text='NVISO: Web App testing'
+              details={`Tijdens dit seminarie kregen we een introductie tot web application penetration testing en web application penetration testing tools zoals Burp Suite.
+              \n•	Seminarie
+              \n•	Bedrijf: NVISO
+              \n•	Locatie activiteit: PXL
+              \n•	Datum: 26 april 2022
+              \n•	Duur: 3 uur
+              `}
             />
             <CardItem
-              src={ik}
-              text='Seminarie...'
-              path='/'
+              src={politie}
+              text='RCCU: Forensics'
+              details={`Tijdens het seminarie kwamen twee medewerkers van de politie uitleg doen over wat de RCCU doet en we kregen extra informatie over cybercrime. 
+              \n•	Seminarie
+              \n•	Bedrijf: Federale gerechtelijke politie Limburg
+              \n•	Locatie activiteit: PXL
+              \n•	Datum: 10 mei 2022
+              \n•	Duur: 3 uur
+              `}
             />
             <CardItem
-              src={ik}
-              text='Seminarie...'
-              path='/'
+              src={dataroots}
+              text='Dataroots: Data/AI strategy'
+              details={`Dit seminarie leert ons hoe we AI use cases kunnen opstellen die gericht zijn op zakelijke doelstellingen.
+              \n•	Seminarie
+              \n•	Bedrijf: Dataroots
+              \n•	Locatie activiteit: PXL
+              \n•	Datum: 26 oktober 2022
+              \n•	Duur: 3 uur
+              `}
             />
             <CardItem
-              src={ik}
-              text='Seminarie...'
-              path='/'
+              src={io}
+              text='IO Belgium: Automated Testing and Quality Assurance'
+              details={`Dit seminarie vertelt hoe we de kwaliteit van onze code kunnen verbeteren en garanderen en hoe we testen automatiseren. 
+              \n•	Seminarie
+              \n•	Bedrijf: IO Belgium
+              \n•	Locatie activiteit: PXL
+              \n•	Datum: 9 november 2022
+              \n•	Duur: 3 uur
+              `}
             />
             <CardItem
-              src={ik}
-              text='Seminarie...'
-              path='/'
+              src={itlicious}
+              text='IT Licious: Flutter'
+              details={`In het seminarie van IT Licious kregen we uitleg over Flutter en maakten we een oefening om kennis te maken met dit framework.
+              \n•	Seminarie
+              \n•	Locatie activiteit: PXL
+              \n•	Datum: 7 december 2022
+              \n•	Duur: 3 uur
+              `}
             />
             <CardItem
-              src={ik}
-              text='Seminarie...'
-              path='/'
+              src={brainjar}
+              text='Brainjar: ChatGPT and the future of IT'
+              details={`Dit seminarie vertelt ons over ChatGPT en de toekomst van IT met automatiseringen van AI.
+              \n•	Seminarie
+              \n•	Locatie activiteit: PXL
+              \n•	Datum: 11 januari 2023
+              \n•	Duur: 3 uur
+              `}
             />
           </ul>
         </div>
       </div>
 
-      <h1>POP-sessies</h1>
+      <h1>Persoonlijke ontwikkeling</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src={hackathon}
-              text='Hackaton fruit at work'
-              path='/'
+              src={pxl}
+              text='Projectweek'
+              details={`Tijdens deze week kregen de studenten verschillende workshops, seminaries en POP-sessies om hun op persoonlijk en professioneel vlak te ontwikkelen en voor te bereiden op het Research Project.
+              \n •	Persoonlijke ontwikkeling
+              \n •	De projectweek 
+              \n •	Locatie activiteit: PXL
+              \n •	Datum: 14 februari 2022 tot en met 18 februari 2022 
+              \n •	Duur: 27 uur`}
             />
             <CardItem
-              src={ik}
-              text='Seminarie...'
-              path='/'
+              src={brein}
+              text='POP-sessie: Brein aan het werk'
+              details={`Tijdens de POP-sessie keken we welk effect internet en sociale media op onze hersenen heeft en de hoeveelheid tijd die we hieraan spenderen. Daarnaast hebben we gezocht naar tools om ons werk zo efficiënt mogelijk aan te pakken.
+              \n •	Persoonlijke ontwikkeling
+              \n •	Locatie activiteit: PXL
+              \n •	Datum: 22 februari 2022
+              \n •	Duur: 3 uur
+              `}
+            />
+            <CardItem
+              src={popping}
+              text='POP-sessie: POPping '
+              details={`Tijdens de POP-sessie hebben we meer inzicht gekregen in onze eigen vaardigheden en die van onze groepsgenoten voor het Research Project. Bovendien hebben wij geoefend met het geven en ontvangen van feedback.
+              \n •	Persoonlijke ontwikkeling
+              \n •	Korte omschrijving activiteit (1 tot 2 regels)
+              \n •	Locatie activiteit: PXL
+              \n •	Datum: 22 februari 2022
+              \n •	Duur: 3 uur
+              `}
+            />
+            <CardItem
+              src={pxl}
+              text='POP-sessie: My Team and I'
+              details={`Deze POP-sessie haalde belangen van een goede groepswerking. Daarnaast waren er oefeningen voorzien voor de samenwerking van onze groep te verbeteren als voorbereiding op het IT-Project.
+              \n•	Persoonlijke ontwikkeling
+              \n•	Locatie activiteit: iSpace (Corda Campus)
+              \n•	Datum: 19 oktober 2022
+              \n•	Duur: 3 uur
+              `}
             />
           </ul>
         </div>
