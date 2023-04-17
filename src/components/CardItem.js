@@ -6,7 +6,13 @@ function CardItem(props) {
   const [expanded, setExpanded] = useState(false);
 
   const handleExpandClick = () => {
-    props.onCardItemClick(props.index);
+    if (expanded) {
+      setExpanded(false);
+      props.onCardItemClick(null);
+    } else {
+      setExpanded(true);
+      props.onCardItemClick(props.index);
+    }
   };
 
   return (

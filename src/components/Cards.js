@@ -15,7 +15,7 @@ import brein from './images/brein.jpg'
 import popping from './images/popping.jpg'
 
 function Cards() {
-  const [expandedIndex, setExpandedIndex] = useState(-1);
+  const [expandedIndex, setExpandedIndex] = useState(null);
 
   return (
     <div className='cards'>
