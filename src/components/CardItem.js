@@ -10,8 +10,8 @@ function CardItem(props) {
       setExpanded(false);
       props.onCardItemClick(null);
     } else {
+      onCardItemClick(index);
       setExpanded(true);
-      props.onCardItemClick(props.index);
     }
   };
 
