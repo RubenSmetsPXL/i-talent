@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/i-talent/static/css/main.92ec63f3.css",
-    "main.js": "/i-talent/static/js/main.5cd2d93c.js",
+    "main.css": "/i-talent/static/css/main.c13118a4.css",
+    "main.js": "/i-talent/static/js/main.f507907c.js",
     "static/media/code.mp4": "/i-talent/static/media/code.7d1ea6a94986d5c2a068.mp4",
+    "static/media/popping.jpg": "/i-talent/static/media/popping.b7707145d2cdc0536203.jpg",
+    "static/media/brein.jpg": "/i-talent/static/media/brein.a624ad29ac4be39c27ae.jpg",
     "static/media/hackathon.png": "/i-talent/static/media/hackathon.60c5ca07caba94cd7096.png",
     "static/media/hello-world.mp4": "/i-talent/static/media/hello-world.191dfdf0865653d639a6.mp4",
     "static/media/ik.jpg": "/i-talent/static/media/ik.74d4e1aec7f3d08426d5.jpg",
+    "static/media/innovatieroute.jpg": "/i-talent/static/media/innovatieroute.c23b7dbd527fc2d7e645.jpg",
+    "static/media/logo_nviso.png": "/i-talent/static/media/logo_nviso.11995d8324a1fc80611c.png",
+    "static/media/logo_politie.jpg": "/i-talent/static/media/logo_politie.6d0ab8192751dbbdc167.jpg",
+    "static/media/logo_itlicious.png": "/i-talent/static/media/logo_itlicious.af0cb47d91dc8b1af824.png",
+    "static/media/logo_io.png": "/i-talent/static/media/logo_io.8c33bf7708fa12bd7667.png",
     "index.html": "/i-talent/index.html",
-    "main.92ec63f3.css.map": "/i-talent/static/css/main.92ec63f3.css.map",
-    "main.5cd2d93c.js.map": "/i-talent/static/js/main.5cd2d93c.js.map"
+    "main.c13118a4.css.map": "/i-talent/static/css/main.c13118a4.css.map",
+    "main.f507907c.js.map": "/i-talent/static/js/main.f507907c.js.map"
   },
   "entrypoints": [
-    "static/css/main.92ec63f3.css",
-    "static/js/main.5cd2d93c.js"
+    "static/css/main.c13118a4.css",
+    "static/js/main.f507907c.js"
   ]
 }
