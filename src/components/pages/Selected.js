@@ -1,13 +1,13 @@
 import '../../App.css';
 import React from 'react';
-import '../Cards.css';
 import CardItem from '../CardItem';
 import hackathon from '../images/hackathon.png'
 import innovatieroute from '../images/innovatieroute.jpg'
-import ik from '../images/ik.jpg'
+import pxl from '../images/logo_pxl.png'
 import code from "../videos/code.mp4";
 
-function Overview() {
+function Selected() {
+
   return (
     <>
       <div className='video-container'>
@@ -21,17 +21,17 @@ function Overview() {
               <CardItem
                 src={hackathon}
                 text='Hackathon fruit at work'
-                details='qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf qdsmfjqmkfjqdsklmfjmqdfkjmqsdjkf '
+                path='/hackathon'
               />
               <CardItem
                 src={innovatieroute}
                 text='Innovatieroute Low Code'
-                path='/'
+                path='/innovatieroute'
               />
               <CardItem
-                src={ik}
-                text='Seminarie...'
-                path='/'
+                src={pxl}
+                text='Projectweek'
+                path='/projectweek'
               />
             </ul>
           </div>
@@ -41,4 +41,4 @@ function Overview() {
   )
 }
 
-export default Overview;
+export default Selected;

@@ -44,7 +44,7 @@ function Cards() {
               \n•	Innovatie
               \n•	Bedrijven: Aziri, Brightfox, OutSystems, Harmony Group, Apvine en iAdvise
               \n•	Locatie activiteit: bedrijf, plaats
-              \n•	Datum: 26 september 2022 tot en met 13 februari 2022
+              \n•	Datum: 6 oktober 2022 tot en met 20 oktober 2022
               \n•	Duur: 25 uur
               `}
 

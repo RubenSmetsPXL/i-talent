@@ -48,15 +48,6 @@
   overflow: hidden;
 }
 
-.cards__item__pic-wrap.expanded {
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
-  margin-top: 40px;
-  border-radius: 100%;
-  overflow: hidden;
-}
-
 .fade-img {
   animation-name: fade-img;
   animation-duration: 2s;

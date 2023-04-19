@@ -5,7 +5,9 @@ import Home from './components/pages/Home'
 import Aboutme from './components/pages/Aboutme';
 import Overview from './components/pages/Overview';
 import Selected from './components/pages/Selected';
-
+import Hackathon from './components/pages/Hackathon';
+import Innovatieroute from './components/pages/Innovatieroute';
+import Projectweek from './components/pages/Projectweek';
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
           <Route path='/overmij' exact element={<Aboutme />} />
           <Route path='/overzicht' exact element={<Overview />} />
           <Route path='/selectie' exact element={<Selected />} />
+          <Route path='/hackathon' exact element={<Hackathon />} />
+          <Route path='/innovatieroute' exact element={<Innovatieroute />} />
+          <Route path='/projectweek' exact element={<Projectweek />} />
         </Routes>
       </Router>
     </>
