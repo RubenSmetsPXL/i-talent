@@ -7,7 +7,7 @@ import Overview from './components/pages/Overview';
 import Selected from './components/pages/Selected';
 import Hackathon from './components/pages/Hackathon';
 import Innovatieroute from './components/pages/Innovatieroute';
-import Projectweek from './components/pages/Projectweek';
+import Brein from './components/pages/Brein';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
           <Route path='/selectie' exact element={<Selected />} />
           <Route path='/hackathon' exact element={<Hackathon />} />
           <Route path='/innovatieroute' exact element={<Innovatieroute />} />
-          <Route path='/projectweek' exact element={<Projectweek />} />
+          <Route path='/projectweek' exact element={<Brein />} />
         </Routes>
       </Router>
     </>
