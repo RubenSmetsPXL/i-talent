@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/i-talent/static/css/main.d91a945e.css",
-    "main.js": "/i-talent/static/js/main.26bd5569.js",
+    "main.js": "/i-talent/static/js/main.9d1e1d25.js",
     "static/media/code.mp4": "/i-talent/static/media/code.7d1ea6a94986d5c2a068.mp4",
     "static/media/zak_hackathon.jpg": "/i-talent/static/media/zak_hackathon.e98efb68db9f741f4c82.jpg",
     "static/media/zelftest1.jpg": "/i-talent/static/media/zelftest1.b3a2421ca5d53e7d0bd9.jpg",
@@ -24,10 +24,10 @@
     "static/media/logo_io.png": "/i-talent/static/media/logo_io.8c33bf7708fa12bd7667.png",
     "index.html": "/i-talent/index.html",
     "main.d91a945e.css.map": "/i-talent/static/css/main.d91a945e.css.map",
-    "main.26bd5569.js.map": "/i-talent/static/js/main.26bd5569.js.map"
+    "main.9d1e1d25.js.map": "/i-talent/static/js/main.9d1e1d25.js.map"
   },
   "entrypoints": [
     "static/css/main.d91a945e.css",
-    "static/js/main.26bd5569.js"
+    "static/js/main.9d1e1d25.js"
   ]
 }
