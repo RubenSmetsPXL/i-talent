@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function CardItem(props) {
-  const { index, path, src, text, details, onCardItemClick } = props;
+  const { index, to, src, text, details, onCardItemClick } = props;
   const [expanded, setExpanded] = useState(false);
 
   const handleExpandClick = () => {
@@ -17,7 +17,10 @@ function CardItem(props) {
 
   return (
     <li className={`cards__item ${props.expanded ? 'expanded' : ''}`}>
-      <Link className='cards__item__link' to={path} onClick={handleExpandClick}>
+      <Link className='cards__item__link' to={to} onClick={(e) => {
+        e.preventDefault();
+        handleExpandClick();
+      }}>
         <figure className='cards__item__pic-wrap'>
           <img className='cards__item__img' alt='activity' src={src} />
         </figure>
