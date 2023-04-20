@@ -42,11 +42,10 @@ function Brein() {
       </p>
 
       <ImageWrapper>
-        <Image src={Zelftest1} alt='outsystems' />
-        <Image src={Zelftest2} alt='mendix' />
-        <Image src={Prioriteitenmatrix} alt='mendix' />
+        <Image src={Zelftest1} alt='zelftest' />
+        <Image src={Zelftest2} alt='zelftest' />
+        <Image src={Prioriteitenmatrix} alt='prioriteitenmatrix' />
       </ImageWrapper>
-
     </>
   )
 }

@@ -30,7 +30,7 @@ function Selected() {
               />
               <CardItem
                 src={pxl}
-                text='Projectweek'
+                text='POP-sessie: Brein aan het werk! Niet storen!'
                 path='/projectweek'
               />
             </ul>

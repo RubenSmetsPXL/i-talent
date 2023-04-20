@@ -40,8 +40,8 @@ function Hackathon() {
         <br></br><br></br>Ik heb besloten de hackathon op te nemen in mijn portfolio, omdat het een zeer goede leerervaring was waarin ik mijn kennis over neurale netwerken in de praktijk kon toepassen en uitbreiden.
       </p>
       <ImageWrapper>
-        <Image src={Picture} alt='outsystems' />
-        <Image src={Zak} alt='mendix' />
+        <Image src={Picture} alt='picture' />
+        <Image src={Zak} alt='sack' />
       </ImageWrapper>
 
     </>

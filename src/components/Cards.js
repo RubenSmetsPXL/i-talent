@@ -195,7 +195,7 @@ function Cards() {
             />
             <CardItem
               src={brein}
-              text='POP-sessie: Brein aan het werk'
+              text='POP-sessie: Brein aan het werk! Niet storen!'
               details={`Tijdens de POP-sessie keken we welk effect internet en sociale media op onze hersenen heeft en de hoeveelheid tijd die we hieraan spenderen. Daarnaast hebben we gezocht naar hulpmiddelen om ons werk zo efficiënt mogelijk aan te pakken.
               \n•	Persoonlijke ontwikkeling
               \n•	Locatie activiteit: PXL
