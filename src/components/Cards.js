@@ -25,13 +25,13 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src={hackathon}
-              text='Hackaton fruit at work'
-              details={`Tijdens de hackathon AI by Example moesten we automatisch fruit in een fruitmand herkennen en tellen door middel van een foto om voedselverspilling tegen te gaan.
+              text='Hackaton Fruit At Work'
+              details={`Tijdens de hackathon Fruit At Work hebben we gewerkt aan het automatisch herkennen en tellen van fruit in een fruitmand door middel van een foto, om zo voedselverspilling tegen te gaan.
               \n•	Innovatie
-              \n•	Bedrijven: AI by Example, Fruit at Work
+              \n•	Bedrijven: AI by Example, Fruit At Work
               \n•	Locatie activiteit: PXL
-              \n•	Datum: 29 november 2022
-              \n•	Duur: 25 uur
+              \n•	Datum: 29 november 2022 – 1 december 2022
+              \n•	Duur: 25 uur             
               `}
               index={0}
               expanded={expandedIndex === 0}
@@ -40,12 +40,12 @@ function Cards() {
             <CardItem
               src={innovatieroute}
               text='Innovatieroute Low Code'
-              details={`Tijdens de innovatieroute kwamen verschillende bedrijven spreken over hoe zij low-code/no-code gebruiken in hun bedrijf. Hierbij kregen we ook oefeningen met diverse low-code platformen. 
+              details={`Tijdens de innovatieroute kwamen verschillende bedrijven spreken over hoe ze low-code en no-code gebruiken in hun bedrijf. Hierbij kregen we ook oefeningen met diverse low-code platformen. 
               \n•	Innovatie
               \n•	Bedrijven: Aziri, Brightfox, OutSystems, Harmony Group, Apvine en iAdvise
-              \n•	Locatie activiteit: bedrijf, plaats
+              \n•	Locatie activiteit: PXL
               \n•	Datum: 6 oktober 2022 tot en met 20 oktober 2022
-              \n•	Duur: 25 uur
+              \n•	Duur: 25 uur              
               `}
 
               index={1}
@@ -63,12 +63,12 @@ function Cards() {
             <CardItem
               src={cegeka}
               text='Cegeka: Business Analysis en Project Management in Applied AI'
-              details={`Tijdens het seminarie leren we over het implementeren van AI-oplossingen in bedrijven en overheden. We leren hoe we agile technieken kunnen toepassen om een idee vorm te geven.
+              details={`Tijdens het seminarie leerden we over het implementeren van AI-oplossingen in bedrijven en overheden. We leerden ook hoe we agile technieken kunnen toepassen om een idee vorm te geven.
               \n•	Seminarie
               \n•	Bedrijf: Cegeka
               \n•	Locatie activiteit: PXL
               \n•	Datum: 22 maart 2022
-              \n•	Duur: 3 uur
+              \n•	Duur: 3 uur              
               `}
               index={2}
               expanded={expandedIndex === 2}
@@ -82,7 +82,7 @@ function Cards() {
               \n•	Bedrijf: Cegeka
               \n•	Locatie activiteit: PXL
               \n•	Datum: 29 maart 2022
-              \n•	Duur: 3 uur
+              \n•	Duur: 3 uur              
               `}
               index={3}
               expanded={expandedIndex === 3}
@@ -91,12 +91,12 @@ function Cards() {
             <CardItem
               src={nviso}
               text='NVISO: Web App testing'
-              details={`Tijdens dit seminarie kregen we een introductie tot web application penetration testing en web application penetration testing tools zoals Burp Suite.
+              details={`Tijdens dit seminarie kregen we een introductie tot web application penetration testing, inclusief de tools die hiervoor worden gebruikt, zoals Burp Suite.
               \n•	Seminarie
               \n•	Bedrijf: NVISO
               \n•	Locatie activiteit: PXL
               \n•	Datum: 26 april 2022
-              \n•	Duur: 3 uur
+              \n•	Duur: 3 uur              
               `}
               index={4}
               expanded={expandedIndex === 4}
@@ -105,7 +105,7 @@ function Cards() {
             <CardItem
               src={politie}
               text='RCCU: Forensics'
-              details={`Tijdens het seminarie kwamen twee medewerkers van de politie uitleg doen over wat de RCCU doet en we kregen extra informatie over cybercrime. 
+              details={`Tijdens het seminarie hebben we uitleg gekregen van twee medewerkers van de politie over de werkzaamheden van de RCCU en hebben we extra informatie ontvangen over cybercrime.
               \n•	Seminarie
               \n•	Bedrijf: Federale gerechtelijke politie Limburg
               \n•	Locatie activiteit: PXL
@@ -119,12 +119,12 @@ function Cards() {
             <CardItem
               src={dataroots}
               text='Dataroots: Data/AI strategy'
-              details={`Dit seminarie leert ons hoe we AI use cases kunnen opstellen die gericht zijn op zakelijke doelstellingen.
+              details={`Dit seminarie leerde ons hoe we AI-toepassingen kunnen opstellen die gericht zijn op zakelijke doelstellingen.
               \n•	Seminarie
               \n•	Bedrijf: Dataroots
               \n•	Locatie activiteit: PXL
               \n•	Datum: 26 oktober 2022
-              \n•	Duur: 3 uur
+              \n•	Duur: 3 uur              
               `}
               index={6}
               expanded={expandedIndex === 6}
@@ -133,12 +133,12 @@ function Cards() {
             <CardItem
               src={io}
               text='IO Belgium: Automated Testing and Quality Assurance'
-              details={`Dit seminarie vertelt hoe we de kwaliteit van onze code kunnen verbeteren en garanderen en hoe we testen automatiseren. 
+              details={`Tijdens dit seminarie hebben we ontdekt hoe we de kwaliteit van onze code kunnen verbeteren en waarborgen. Daarnaast hebben we ook ontdekt hoe we tests kunnen automatiseren.
               \n•	Seminarie
               \n•	Bedrijf: IO Belgium
               \n•	Locatie activiteit: PXL
               \n•	Datum: 9 november 2022
-              \n•	Duur: 3 uur
+              \n•	Duur: 3 uur              
               `}
               index={7}
               expanded={expandedIndex === 7}
@@ -147,11 +147,12 @@ function Cards() {
             <CardItem
               src={itlicious}
               text='IT Licious: Flutter'
-              details={`In het seminarie van IT Licious kregen we uitleg over Flutter en maakten we een oefening om kennis te maken met dit framework.
+              details={`In het seminarie van IT Licious kregen we uitleg over Flutter en maakten we oefeningen om kennis te maken met dit framework.
               \n•	Seminarie
+              \n•	Bedrijf: IT Licious
               \n•	Locatie activiteit: PXL
               \n•	Datum: 7 december 2022
-              \n•	Duur: 3 uur
+              \n•	Duur: 3 uur              
               `}
               index={8}
               expanded={expandedIndex === 8}
@@ -160,11 +161,12 @@ function Cards() {
             <CardItem
               src={brainjar}
               text='Brainjar: ChatGPT and the future of IT'
-              details={`Dit seminarie vertelt ons over ChatGPT en de toekomst van IT met automatiseringen van AI.
+              details={`Dit seminarie leerde ons over ChatGPT en de toekomst van IT met automatiseringen van AI.
               \n•	Seminarie
+              \n•	Bedrijf: Brainjar
               \n•	Locatie activiteit: PXL
               \n•	Datum: 11 januari 2023
-              \n•	Duur: 3 uur
+              \n•	Duur: 3 uur              
               `}
               index={9}
               expanded={expandedIndex === 9}
@@ -182,11 +184,11 @@ function Cards() {
               src={pxl}
               text='Projectweek'
               details={`Tijdens deze week kregen de studenten verschillende workshops, seminaries en POP-sessies om hun op persoonlijk en professioneel vlak te ontwikkelen en voor te bereiden op het Research Project.
-              \n •	Persoonlijke ontwikkeling
-              \n •	De projectweek 
-              \n •	Locatie activiteit: PXL
-              \n •	Datum: 14 februari 2022 tot en met 18 februari 2022 
-              \n •	Duur: 27 uur`}
+              \n•	Persoonlijke ontwikkeling
+              \n•	Locatie activiteit: PXL
+              \n•	Datum: 14 februari 2022 tot en met 18 februari 2022 
+              \n•	Duur: 27 uur
+              `}
               index={10}
               expanded={expandedIndex === 10}
               onCardItemClick={(index) => setExpandedIndex(index)}
@@ -194,11 +196,11 @@ function Cards() {
             <CardItem
               src={brein}
               text='POP-sessie: Brein aan het werk'
-              details={`Tijdens de POP-sessie keken we welk effect internet en sociale media op onze hersenen heeft en de hoeveelheid tijd die we hieraan spenderen. Daarnaast hebben we gezocht naar tools om ons werk zo efficiënt mogelijk aan te pakken.
-              \n •	Persoonlijke ontwikkeling
-              \n •	Locatie activiteit: PXL
-              \n •	Datum: 22 februari 2022
-              \n •	Duur: 3 uur
+              details={`Tijdens de POP-sessie keken we welk effect internet en sociale media op onze hersenen heeft en de hoeveelheid tijd die we hieraan spenderen. Daarnaast hebben we gezocht naar hulpmiddelen om ons werk zo efficiënt mogelijk aan te pakken.
+              \n•	Persoonlijke ontwikkeling
+              \n•	Locatie activiteit: PXL
+              \n•	Datum: 22 februari 2022
+              \n•	Duur: 3 uur              
               `}
               index={11}
               expanded={expandedIndex === 11}
@@ -207,12 +209,11 @@ function Cards() {
             <CardItem
               src={popping}
               text='POP-sessie: POPping '
-              details={`Tijdens de POP-sessie hebben we meer inzicht gekregen in onze eigen vaardigheden en die van onze groepsgenoten voor het Research Project. Bovendien hebben wij geoefend met het geven en ontvangen van feedback.
-              \n •	Persoonlijke ontwikkeling
-              \n •	Korte omschrijving activiteit (1 tot 2 regels)
-              \n •	Locatie activiteit: PXL
-              \n •	Datum: 22 februari 2022
-              \n •	Duur: 3 uur
+              details={`Tijdens de POP-sessie hebben we meer inzicht gekregen in onze eigen vaardigheden en die van onze groepsgenoten voor het Research Project. Bovendien hebben we geoefend met het geven en ontvangen van feedback.
+              \n•	Persoonlijke ontwikkeling
+              \n•	Locatie activiteit: PXL
+              \n•	Datum: 22 februari 2022
+              \n•	Duur: 3 uur              
               `}
               index={12}
               expanded={expandedIndex === 12}
@@ -221,11 +222,11 @@ function Cards() {
             <CardItem
               src={pxl}
               text='POP-sessie: My Team and I'
-              details={`Deze POP-sessie haalde belangen van een goede groepswerking. Daarnaast waren er oefeningen voorzien voor de samenwerking van onze groep te verbeteren als voorbereiding op het IT-Project.
+              details={`Deze POP-sessie haalde belangen van een goede groepswerking aan. Daarnaast waren er oefeningen voorzien voor de samenwerking van onze groep te verbeteren als voorbereiding op het IT-Project.
               \n•	Persoonlijke ontwikkeling
               \n•	Locatie activiteit: iSpace (Corda Campus)
               \n•	Datum: 19 oktober 2022
-              \n•	Duur: 3 uur
+              \n•	Duur: 3 uur              
               `}
               index={13}
               expanded={expandedIndex === 13}
