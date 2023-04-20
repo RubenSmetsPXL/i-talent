@@ -40,6 +40,11 @@ function Navbar() {
                 Eindreflectie
               </Link>
             </li>
+            <li className='nav-item'>
+              <Link to='/extra' className='nav-links' onClick={closeMobileMenu}>
+                Extra
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

@@ -8,6 +8,7 @@ import Selected from './components/pages/Selected';
 import Hackathon from './components/pages/Hackathon';
 import Innovatieroute from './components/pages/Innovatieroute';
 import Brein from './components/pages/Brein';
+import Extra from './components/pages/Extra';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/hackathon' exact element={<Hackathon />} />
           <Route path='/innovatieroute' exact element={<Innovatieroute />} />
           <Route path='/projectweek' exact element={<Brein />} />
+          <Route path='/extra' exact element={<Extra />} />
         </Routes>
       </Router>
     </>
