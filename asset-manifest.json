@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/i-talent/static/css/main.d91a945e.css",
-    "main.js": "/i-talent/static/js/main.e8330208.js",
+    "main.js": "/i-talent/static/js/main.26bd5569.js",
     "static/media/code.mp4": "/i-talent/static/media/code.7d1ea6a94986d5c2a068.mp4",
     "static/media/zak_hackathon.jpg": "/i-talent/static/media/zak_hackathon.e98efb68db9f741f4c82.jpg",
     "static/media/zelftest1.jpg": "/i-talent/static/media/zelftest1.b3a2421ca5d53e7d0bd9.jpg",
@@ -12,18 +12,22 @@
     "static/media/hello-world.mp4": "/i-talent/static/media/hello-world.191dfdf0865653d639a6.mp4",
     "static/media/ik.jpg": "/i-talent/static/media/ik.74d4e1aec7f3d08426d5.jpg",
     "static/media/outsystems.png": "/i-talent/static/media/outsystems.d7116980ba2dceb119f6.png",
+    "static/media/react.png": "/i-talent/static/media/react.8a6fc0a24a800d1e0f4a.png",
     "static/media/mendix.png": "/i-talent/static/media/mendix.1ab5ff043dc800fcb6a1.png",
     "static/media/innovatieroute.jpg": "/i-talent/static/media/innovatieroute.c23b7dbd527fc2d7e645.jpg",
+    "static/media/angular.png": "/i-talent/static/media/angular.b6d2a9dec3e43e0ffb95.png",
     "static/media/logo_nviso.png": "/i-talent/static/media/logo_nviso.11995d8324a1fc80611c.png",
     "static/media/logo_politie.jpg": "/i-talent/static/media/logo_politie.6d0ab8192751dbbdc167.jpg",
+    "static/media/Vue.png": "/i-talent/static/media/Vue.ec2480daf869d1526b6f.png",
+    "static/media/x-factor.jpg": "/i-talent/static/media/x-factor.9b1aac47f1d0e65f8753.jpg",
     "static/media/logo_itlicious.png": "/i-talent/static/media/logo_itlicious.af0cb47d91dc8b1af824.png",
     "static/media/logo_io.png": "/i-talent/static/media/logo_io.8c33bf7708fa12bd7667.png",
     "index.html": "/i-talent/index.html",
     "main.d91a945e.css.map": "/i-talent/static/css/main.d91a945e.css.map",
-    "main.e8330208.js.map": "/i-talent/static/js/main.e8330208.js.map"
+    "main.26bd5569.js.map": "/i-talent/static/js/main.26bd5569.js.map"
   },
   "entrypoints": [
     "static/css/main.d91a945e.css",
-    "static/js/main.e8330208.js"
+    "static/js/main.26bd5569.js"
   ]
 }
